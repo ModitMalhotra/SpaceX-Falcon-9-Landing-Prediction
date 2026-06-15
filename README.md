@@ -42,7 +42,31 @@ https://en.wikipedia.org/wiki/List_of_Falcon_9_and_Falcon_Heavy_launches
 - Folium
 - Matplotlib
 - Seaborn
-- 
+
+## Repository Contents
+
+### notebooks
+Contains all Jupyter notebooks for:
+- Data collection (API & Web Scraping)
+- Data wrangling
+- Exploratory Data Analysis
+- Visualization
+- Machine Learning prediction
+
+### dashboard
+Contains the interactive Plotly Dash application.
+
+### datasets
+Contains cleaned and processed datasets used throughout the project.
+
+### maps
+Contains Folium-generated interactive maps.
+
+### project files
+- `requirements.txt` → project dependencies
+- `.gitignore` → ignored files
+- `README.md` → project documentation
+
 ## Workflow
 
 ### 1. Data Collection
@@ -71,10 +95,10 @@ Trained classification models to predict booster landing success.
 
 ## Results
 
-Key findings:
-- Launch site and payload influence landing outcomes
-- Interactive exploration improved the interpretation of launch trends
-- Predictive modeling helps estimate mission cost efficiency
+- Launch site selection significantly affected landing success probability
+- Payload mass showed an observable correlation with successful landings
+- Interactive dashboard enabled exploration of launch outcomes
+- Machine learning models achieved reliable classification performance
 
 ## Future Improvements
 
